@@ -1,0 +1,15 @@
+[class*="col-"] {
+    background-color: rgb(0, 110, 255);
+    border: 1px white solid;
+    height: 100px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.col-6 .col-2, .col-6 .col-8, .col-6 .col-6 {
+    background-color: greenyellow;
+    height: 50%;
+}
