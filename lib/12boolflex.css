@@ -139,16 +139,16 @@
 
 /* Colonne Interne */
 .col-nest-2 {
-    flex-basis: calc(((100% / 12) * 1) - 20px);
-    max-width: calc(((100% / 12) * 1) - 20px);
-}
-
-.col-nest-8 {
-    flex-basis: calc(((100% / 12) * 1) - 20px);
-    max-width: calc(((100% / 12) * 1) - 20px);
+    flex-basis: calc(((100% / 12) * 2) - 20px);
+    max-width: calc(((100% / 12) * 2) - 20px);
 }
 
 .col-nest-6 {
-    flex-basis: calc(((100% / 12) * 1) - 20px);
-    max-width: calc(((100% / 12) * 1) - 20px);
+    flex-basis: calc(((100% / 12) * 6) - 20px);
+    max-width: calc(((100% / 12) * 6) - 20px);
+}
+
+.col-nest-8 {
+    flex-basis: calc(((100% / 12) * 8) - 20px);
+    max-width: calc(((100% / 12) * 8) - 20px);
 }
